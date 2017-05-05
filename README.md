@@ -9,12 +9,12 @@ cuteboydot@gmail.com
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/number_ex.JPG" />
 </br>
 
-- usage details : train & test
+- usage : train & test
 <br>
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG" />
 </br>
 
-- usage : feed forward  
+- usage details : feed forward  
 
 ```  
 void CMultiLayerPerceptron::feedforward(double * pInputs)  
