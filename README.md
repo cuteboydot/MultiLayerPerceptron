@@ -14,10 +14,21 @@ cuteboydot@gmail.com
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/test_result.JPG" />
 </br>
 
-- usage : train & test
-<br>
-<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG" />
-</br>
+- usage : train & test  
+```cpp
+// train
+CMultiLayerPerceptron * p = new CMultiLayerPerceptron();
+p->init(SIZE_TRAIN, SIZE_IN_ATTR, SIZE_HIDD, SIZE_OUT_ATTR);
+p->train(input_data, answer_data);
+
+// test
+for(int a=0; a<SIZE_TEST; a++) {
+    p->classfication(test_data[a], guess_data);
+    printf("[%d] guess:%.2f,%.2f,%.2f, answer:%.2f,%.2f,%.2f \n", a, 
+        guess_data[0], guess_data[1], guess_data[2], 
+        answer_data[a*2][0], answer_data[a*2][1], answer_data[a*2][2]);
+}
+```
 
 - usage details : feed forward  
 
