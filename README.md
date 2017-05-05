@@ -6,12 +6,12 @@ cuteboydot@gmail.com
 - example : number classification
 
 <br>
-<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/number_ex.JPG.png" />
+<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/number_ex.JPG" />
 </br>
 
 - usage
 <br>
-<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG.png" />
+<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG" />
 </br>
 
 - feed forward
@@ -25,7 +25,7 @@ cuteboydot@gmail.com
 
 - test result
 <br>
-<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/test_result.JPG.png" />
+<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/test_result.JPG" />
 </br>
 
   
