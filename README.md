@@ -15,6 +15,7 @@ cuteboydot@gmail.com
 </br>
 
 - usage : feed forward  
+    
     void CMultiLayerPerceptron::feedforward(double * pInputs)  
     {  
         double dSum = 0;  
