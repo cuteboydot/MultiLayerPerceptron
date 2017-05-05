@@ -50,6 +50,7 @@ cuteboydot@gmail.com
     }
 
 - usage details : back propagation  
+    
     void CMultiLayerPerceptron::backpropagation(double * pAnswer)  
     {  
         // Modify deltas between hidden and output  
