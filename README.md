@@ -14,7 +14,7 @@ cuteboydot@gmail.com
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG" />
 </br>
 
-- usage : feed forward
+- usage : feed forward  
     void CMultiLayerPerceptron::feedforward(double * pInputs)
     {
         double dSum = 0;
@@ -48,7 +48,7 @@ cuteboydot@gmail.com
         }
     }
 
-- usage details : back propagation
+- usage details : back propagation  
     void CMultiLayerPerceptron::backpropagation(double * pAnswer)
     {
         // Modify deltas between hidden and output
