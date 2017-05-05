@@ -9,6 +9,11 @@ cuteboydot@gmail.com
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/number_ex.JPG" />
 </br>
 
+- test result
+<br>
+<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/test_result.JPG" />
+</br>
+
 - usage : train & test
 <br>
 <img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/traintest.JPG" />
@@ -16,7 +21,7 @@ cuteboydot@gmail.com
 
 - usage details : feed forward  
 
-```  
+```cpp  
 void CMultiLayerPerceptron::feedforward(double * pInputs)  
 {  
     double dSum = 0;  
@@ -53,7 +58,7 @@ void CMultiLayerPerceptron::feedforward(double * pInputs)
 
 - usage details : back propagation  
 
-```
+```cpp
 void CMultiLayerPerceptron::backpropagation(double * pAnswer)  
 {  
     // Modify deltas between hidden and output  
@@ -96,10 +101,3 @@ void CMultiLayerPerceptron::backpropagation(double * pAnswer)
     }
 }
 ```
-- test result
-<br>
-<img src="https://github.com/cuteboydot/MultiLayerPerceptron/blob/master/img/test_result.JPG" />
-</br>
-
-  
-
