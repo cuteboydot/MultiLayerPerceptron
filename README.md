@@ -15,10 +15,10 @@ cuteboydot@gmail.com
 </br>
 
 - usage : feed forward  
-    void CMultiLayerPerceptron::feedforward(double * pInputs)
-    {
-        double dSum = 0;
-
+    void CMultiLayerPerceptron::feedforward(double * pInputs)  
+    {  
+        double dSum = 0;  
+  
         for(int a=0; a<m_nInput; a++) {
             m_pInputNeurons[a] = pInputs[a];
         }
@@ -49,9 +49,9 @@ cuteboydot@gmail.com
     }
 
 - usage details : back propagation  
-    void CMultiLayerPerceptron::backpropagation(double * pAnswer)
-    {
-        // Modify deltas between hidden and output
+    void CMultiLayerPerceptron::backpropagation(double * pAnswer)  
+    {  
+        // Modify deltas between hidden and output  
         for(int b=0; b<m_nOutput; b++) {
             m_pOutputError[b] = m_pOutputNeurons[b] * (1.0 - m_pOutputNeurons[b]) * (pAnswer[b] - m_pOutputNeurons[b]);
 
